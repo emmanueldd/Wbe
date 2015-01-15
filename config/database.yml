@@ -25,3 +25,4 @@ production:
   host: localhost
   username: manu
   database: manu
+  password: qaqawete78
