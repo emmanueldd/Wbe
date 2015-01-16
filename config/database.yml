@@ -23,6 +23,6 @@ test:
 production:
   adapter: postgresql
   host: localhost
-  username: deploy
   database: deploy
-  password: pistache95
+  username: <%= ENV['POSTGRES_USERNAME'] %>
+  password: <%= ENV['POSTGRES_PASSWORD'] %>
