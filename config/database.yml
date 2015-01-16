@@ -23,6 +23,6 @@ test:
 production:
   adapter: postgresql
   host: localhost
-  username: manu
-  database: manu
+  username: deploy
+  database: deploy
   password: pistache95
